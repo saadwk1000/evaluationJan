@@ -1,0 +1,36 @@
+.product-card {
+  width: 240px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: aqua;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
+  &__name {
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  p {
+    margin: 6px 0;
+    font-size: 0.9rem;
+
+    span {
+      font-weight: 500;
+      color: #555;
+    }
+  }
+
+  &__status {
+    margin-top: 12px;
+    font-weight: 600;
+
+    &.in-stock {
+      color: #2e7d32;
+    }
+
+    &.out-of-stock {
+      color: #c62828;
+    }
+  }
+}
